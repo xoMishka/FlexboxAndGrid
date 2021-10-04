@@ -6,6 +6,9 @@
     Date: October 4, 2021
 */
 
+/* FR = Fraction Unit - can also use em, px, percent, or a mix */
+
+
 .grid-container {
     display: grid;  /* makes the element a grid container */
     grid-template-columns: 1fr 1fr 1fr; /* defines 3 columns of equal width */
