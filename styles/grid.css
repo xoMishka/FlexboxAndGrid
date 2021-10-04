@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*
+    Grid CSS Example
+    By: Amber Jeffers
+    Date: October 4, 2021
+*/
+
+.grid-container {
+    display: grid;  /* makes the element a grid container */
+    grid-template-columns: 1fr 1fr 1fr; /* defines 3 columns of equal width */
+    grid-template-rows: 1fr 1fr; /* defines 2 rows of equal height */
+    grid-gap: 0.5em; /* applies  gutter between each grid cell */
+}
+
+.grid-container > * {
+    background-color: darkgray;
+    color: white;
+    padding: 2em;
+    border-radius: 0.5em;
+}
